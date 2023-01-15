@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/tipsFragment"
+        android:icon="@drawable/ic_tips"
+        android:title="@string/tips_txt"/>
+
+    <item android:id="@+id/calendarFragment"
+        android:icon="@drawable/ic_calendar"
+        android:title="@string/calendar_txt"/>
+
+    <item android:id="@+id/plantsFragment"
+        android:icon="@drawable/ic_plants"
+        android:title="@string/plants_txt"/>
+
+    <item android:id="@+id/nutrientsFragment"
+        android:icon="@drawable/ic_nutrients"
+        android:title="@string/nutrients_txt"/>
+
+    <item android:id="@+id/savesFragment"
+        android:icon="@drawable/ic_saves"
+        android:title="@string/saves_txt"/>
+
+</menu>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pro Gardner</string>
+    <string name="tips_txt">Tips</string>
+    <string name="calendar_txt">Calendar</string>
+    <string name="plants_txt">Plants</string>
+    <string name="nutrients_txt">Nutrients</string>
+    <string name="saves_txt">Saves</string>
+</resources>
