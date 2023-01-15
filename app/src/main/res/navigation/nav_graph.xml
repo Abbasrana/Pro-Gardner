@@ -3,11 +3,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/mainActivity">
+    app:startDestination="@id/tipsFragment">
 
-    <activity
-        android:id="@+id/mainActivity"
-        android:name="com.example.progardner.MainActivity"
-        android:label="activity_main"
-        tools:layout="@layout/activity_main" />
+
+    <fragment
+        android:id="@+id/plantsFragment"
+        android:name="com.example.progardner.ui.PlantsFragment"
+        android:label="@string/plants_txt" />
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.example.progardner.ui.CalendarFragment"
+        android:label="@string/calendar_txt" />
+    <fragment
+        android:id="@+id/tipsFragment"
+        android:name="com.example.progardner.ui.TipsFragment"
+        android:label="@string/tips_txt" />
+    <fragment
+        android:id="@+id/nutrientsFragment"
+        android:name="com.example.progardner.ui.NutrientsFragment"
+        android:label="@string/nutrients_txt" />
+    <fragment
+        android:id="@+id/savesFragment"
+        android:name="com.example.progardner.ui.SavesFragment"
+        android:label="@string/saves_txt" />
 </navigation>
