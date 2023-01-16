@@ -5,4 +5,9 @@
     <string name="plants_txt">Plants</string>
     <string name="nutrients_txt">Nutrients</string>
     <string name="saves_txt">Saves</string>
+    <string name="vegetables">Vegetables</string>
+    <string name="herbals">Herbals</string>
+    <string name="filter">filter</string>
+    <string name="search">search</string>
+    <string name="saves">Saves</string>
 </resources>

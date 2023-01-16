@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        appBarConfiguration= AppBarConfiguration(
+/*        appBarConfiguration= AppBarConfiguration(
             setOf(
                 R.id.plantsFragment,
                 R.id.calendarFragment,
@@ -33,5 +33,10 @@ class MainActivity : AppCompatActivity() {
     }
     override fun onSupportNavigateUp(): Boolean {
         return navController.navigateUp(appBarConfiguration)
+    }*/
+        val navHostFragment =
+            supportFragmentManager.findFragmentById(R.id.fragmentContainerView) as NavHostFragment
+        navController = navHostFragment.navController
+        findViewById<BottomNavigationView>(R.id.navigation).setupWithNavController(navController)
     }
 }
