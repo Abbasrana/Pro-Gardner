@@ -8,7 +8,6 @@ import androidx.appcompat.widget.Toolbar
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupWithNavController
 import com.example.progardner.R
 
@@ -17,8 +16,8 @@ class SavesFragment : Fragment(R.layout.saves_fragment), Toolbar.OnMenuItemClick
         setToolbar()
     }
 
-    fun setToolbar() {
-        val toolbar = view?.findViewById<Toolbar>(R.id.toolbarNew)
+    private fun setToolbar() {
+        val toolbar = view?.findViewById<Toolbar>(R.id.toolbar)
         val navController = NavHostFragment.findNavController(this)
         val appBarConfiguration = AppBarConfiguration(
             setOf(

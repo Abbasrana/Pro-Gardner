@@ -12,10 +12,11 @@
         <entry key="app/src/main/res/drawable/splash_animation.xml" value="0.195" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.13582509358723954" />
         <entry key="app/src/main/res/layout/calendar_fragment.xml" value="0.14791666666666667" />
+        <entry key="app/src/main/res/layout/custom_toolbar.xml" value="0.22418478260869565" />
         <entry key="app/src/main/res/layout/dashboard_fragment.xml" value="0.22083333333333333" />
         <entry key="app/src/main/res/layout/nutrients_fragment.xml" value="0.14791666666666667" />
         <entry key="app/src/main/res/layout/plants_fragment.xml" value="0.20677083333333332" />
-        <entry key="app/src/main/res/layout/saves_fragment.xml" value="0.14791666666666667" />
+        <entry key="app/src/main/res/layout/saves_fragment.xml" value="0.2623209635416667" />
         <entry key="app/src/main/res/layout/tips_fragment.xml" value="0.1298193359375" />
         <entry key="app/src/main/res/menu/bottom_menu.xml" value="0.14791666666666667" />
         <entry key="app/src/main/res/menu/toolbar_menu.xml" value="0.20208333333333334" />
